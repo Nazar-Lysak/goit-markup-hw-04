@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #4d5ae5;
 }
 
-.footer_logo {
+.footer-logo {
     color: #f4f4fd
 }
 
@@ -288,6 +288,10 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+.list-feature {
+    width: calc((100% - 48px) / 3);
 }
 
 .about-feature {
